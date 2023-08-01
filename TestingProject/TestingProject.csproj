@@ -61,15 +61,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClass\LoginToActiTime.cs" />
+    <Compile Include="GenericUtility\AssemblyInitialize.cs" />
     <Compile Include="GenericUtility\ExcelUtility.cs" />
     <Compile Include="GenericUtility\WebActionUtility.cs" />
     <Compile Include="ObjectRepos\ActiTimeHome.cs" />
     <Compile Include="ObjectRepos\ActiTimeLogin.cs" />
-    <Compile Include="ObjectRepos\ActiTimeTasks.cs" />
     <Compile Include="Parallel exe.cs" />
+    <Compile Include="PriorityExecution\PriorityClass01.cs" />
     <Compile Include="TestData\DataRowClass.cs" />
     <Compile Include="TestScripts\ActiTimeHome.cs" />
+    <Compile Include="TestScripts\DynamicDataAndDataSource.cs" />
+    <Compile Include="TestScripts\ExpectdExceptionAttribute.cs" />
     <Compile Include="TestScripts\LoginToActiTimeUsingExcelData.cs" />
+    <Compile Include="TestScripts\TimeOut.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

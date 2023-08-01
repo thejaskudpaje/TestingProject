@@ -16,8 +16,6 @@ namespace TestingProject.TestScripts
         {
         }
 
-
-
         //  public static object MessageBox { get; private set; }
         [TestMethod]
         [ClassInitialize]

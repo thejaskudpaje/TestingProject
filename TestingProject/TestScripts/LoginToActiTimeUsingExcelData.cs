@@ -41,16 +41,6 @@ namespace TestingProject.TestScripts
           
         }
 
-        [AssemblyInitialize]
-        public static void AssemblyIni(TestContext context)
-        {
-            MessageBox.Show("this is Assemblyinitialzer");
-        }
-
-        [AssemblyCleanup]
-        public static void Assemblycleanup()
-        {
-            MessageBox.Show("this is Assemblycleanup");
-        }
+      
     }
 }
