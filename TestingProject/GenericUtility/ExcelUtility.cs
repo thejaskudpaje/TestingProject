@@ -15,7 +15,8 @@ namespace TestingProject.GenericUtility
     {
         public String GetDataFromExcel(String sheet, int row, int col)
         {
-            string path = "G:\\TYSS\\C#\\ActiTimeLogin.xlsx";
+            // string path = "G:\\TYSS\\C#\\ActiTimeLogin.xlsx";
+            string path = "./TestData/ActiTimeLogin.xlsx";
 
             Spreadsheet spreadsheet = new Spreadsheet();
 

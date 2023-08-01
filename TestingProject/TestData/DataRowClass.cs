@@ -11,8 +11,6 @@ using TestingProject.ObjectRepos;
 
 namespace TestingProject.TestData
 {
-   
-
     [TestClass]
     [TestCategory("data_row")]
     public class DataRowClass
