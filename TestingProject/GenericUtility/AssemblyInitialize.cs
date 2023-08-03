@@ -11,14 +11,14 @@ namespace TestingProject.GenericUtility
     [TestClass]
     public class AssemblyAtribute
     {
-        [AssemblyInitialize]
+      //  [AssemblyInitialize]
         [TestMethod]
         public static void AssemblyIni(TestContext context)
         {
             MessageBox.Show("this is Assemblyinitialzer");
         }
 
-        [AssemblyCleanup]
+      //  [AssemblyCleanup]
         [TestMethod]
         public static void Assemblycleanup()
         {

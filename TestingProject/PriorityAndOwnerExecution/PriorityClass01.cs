@@ -9,9 +9,11 @@ namespace TestingProject.PriorityExecution
 {
     [TestClass]
     [TestCategory("Priority classes")]
+    
     public class PriorityClass01
     {
         [TestMethod]
+        [Owner("thejas")]
         [Priority(0)]
         public void Test01()
         {
@@ -19,6 +21,7 @@ namespace TestingProject.PriorityExecution
         }
 
         [TestMethod]
+        [Owner("datta")]
         [Priority(2)]
         public void Test02()
         {
@@ -32,6 +35,7 @@ namespace TestingProject.PriorityExecution
     public class PriorityClass02
     {
         [TestMethod]
+        [Owner("datta")]
         [Priority(2)]
         public void Test03()
         {
@@ -51,6 +55,7 @@ namespace TestingProject.PriorityExecution
     public class PriorityClass03
     {
         [TestMethod]
+        [Owner("thejas")]
         [Priority(-1)]
         public void Test05()
         {
@@ -58,6 +63,7 @@ namespace TestingProject.PriorityExecution
         }
 
         [TestMethod]
+        [Owner("thejas")]
         [Priority(1)]
         public void Test01()
         {

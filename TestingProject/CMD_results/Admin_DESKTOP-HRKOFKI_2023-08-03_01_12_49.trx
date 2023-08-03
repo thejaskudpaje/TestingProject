@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="2efcb8b7-3603-4217-b811-90f46cbf8643" name="Admin@DESKTOP-HRKOFKI 2023-08-03 01:12:49" runUser="DESKTOP-HRKOFKI\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-08-03T01:12:49.1987314+05:30" queuing="2023-08-03T01:12:49.1987314+05:30" start="2023-08-03T01:12:47.5207135+05:30" finish="2023-08-03T01:12:49.7204300+05:30" />
+  <TestSettings name="default" id="ed0f4133-7319-4215-bfce-cd4579a54641">
+    <Deployment runDeploymentRoot="Admin_DESKTOP-HRKOFKI_2023-08-03_01_12_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a5b44ca7-c14a-4ffa-bed4-57a517fc8786" testId="a0dd2343-f25f-cf0b-0362-4fce274271b3" testName="DataTesting1" computerName="DESKTOP-HRKOFKI" duration="00:00:00.0114383" startTime="2023-08-03T01:12:47.8052572+05:30" endTime="2023-08-03T01:12:47.9421801+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5b44ca7-c14a-4ffa-bed4-57a517fc8786">
+      <Output>
+        <StdOut>DataTesting&#xD;
+DataTesting&#xD;
+Chrome</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14d74384-d35d-4f04-8bf8-dae95352d798" testId="eb0bbcb1-ee51-9940-b9a0-b9e40619123b" testName="DataTesting" computerName="DESKTOP-HRKOFKI" duration="00:00:01.5996374" startTime="2023-08-03T01:12:47.8052572+05:30" endTime="2023-08-03T01:12:49.5245409+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14d74384-d35d-4f04-8bf8-dae95352d798">
+      <Output>
+        <StdOut>DataTesting&#xD;
+&#xD;
+
+
+TestContext Messages:
+DataTesting&#xD;
+Chrome</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DataTesting1" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="1" id="a0dd2343-f25f-cf0b-0362-4fce274271b3">
+      <Owners>
+        <Owner name="Thejas" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="TC" />
+      </TestCategory>
+      <Execution id="a5b44ca7-c14a-4ffa-bed4-57a517fc8786" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.ITestingPractice.ITestingClassPractice" name="DataTesting1" />
+    </UnitTest>
+    <UnitTest name="DataTesting" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="1" id="eb0bbcb1-ee51-9940-b9a0-b9e40619123b">
+      <Owners>
+        <Owner name="Thejas" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="TC" />
+      </TestCategory>
+      <Execution id="14d74384-d35d-4f04-8bf8-dae95352d798" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.ITestingPractice.ITestingClassPractice" name="DataTesting" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a0dd2343-f25f-cf0b-0362-4fce274271b3" executionId="a5b44ca7-c14a-4ffa-bed4-57a517fc8786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb0bbcb1-ee51-9940-b9a0-b9e40619123b" executionId="14d74384-d35d-4f04-8bf8-dae95352d798" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>MSTest Executor: Test Parallelization enabled for C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll (Workers: 5, Scope: MethodLevel).&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

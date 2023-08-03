@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="305b6a9b-af70-4def-a0ac-8ec77dab6e9e" name="Admin@DESKTOP-HRKOFKI 2023-08-02 13:22:39" runUser="DESKTOP-HRKOFKI\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-08-02T13:22:39.8967513+05:30" queuing="2023-08-02T13:22:39.8967513+05:30" start="2023-08-02T13:22:34.3085420+05:30" finish="2023-08-02T13:22:44.5460307+05:30" />
+  <TestSettings name="default" id="e09a2d91-cdfa-4b92-87f3-2f002c922e9f">
+    <Deployment runDeploymentRoot="Admin_DESKTOP-HRKOFKI_2023-08-02_13_22_39" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="55612208-80a8-4574-bb27-cc53a50470cf" testId="c01cbb09-c1cf-3afc-2bfe-132431acdeb7" testName="TM3" computerName="DESKTOP-HRKOFKI" duration="00:00:03.0178927" startTime="2023-08-02T13:22:35.5658914+05:30" endTime="2023-08-02T13:22:39.8697493+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55612208-80a8-4574-bb27-cc53a50470cf" />
+    <UnitTestResult executionId="8c3befc2-1339-4d40-9df1-569d017e5012" testId="06f63c9c-0faa-a3fe-246f-cdd916dda8a1" testName="TM2" computerName="DESKTOP-HRKOFKI" duration="00:00:03.0035923" startTime="2023-08-02T13:22:39.8927377+05:30" endTime="2023-08-02T13:22:42.8980602+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c3befc2-1339-4d40-9df1-569d017e5012" />
+    <UnitTestResult executionId="f21e929b-4d6c-4c3c-97da-7ea96f6814c0" testId="01ba3369-9dd2-5b0e-c4c5-f1f07f134e03" testName="Test04" computerName="DESKTOP-HRKOFKI" duration="00:00:00.0024649" startTime="2023-08-02T13:22:42.8980602+05:30" endTime="2023-08-02T13:22:42.9050575+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f21e929b-4d6c-4c3c-97da-7ea96f6814c0">
+      <Output>
+        <StdOut>Priority(1)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="81d5bb1d-9757-4d70-a9f5-1e3d7bb565ff" testId="dad6df1f-dfe8-35de-f0a2-0f4effbc0fed" testName="Test01" computerName="DESKTOP-HRKOFKI" duration="00:00:00.0004904" startTime="2023-08-02T13:22:42.9050575+05:30" endTime="2023-08-02T13:22:42.9070549+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81d5bb1d-9757-4d70-a9f5-1e3d7bb565ff">
+      <Output>
+        <StdOut>Priority(1)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test04" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="1" id="01ba3369-9dd2-5b0e-c4c5-f1f07f134e03">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Priority classes" />
+      </TestCategory>
+      <Execution id="f21e929b-4d6c-4c3c-97da-7ea96f6814c0" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.PriorityExecution.PriorityClass02" name="Test04" />
+    </UnitTest>
+    <UnitTest name="TM3" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="1" id="c01cbb09-c1cf-3afc-2bfe-132431acdeb7">
+      <TestCategory>
+        <TestCategoryItem TestCategory="smoke" />
+        <TestCategoryItem TestCategory="A" />
+      </TestCategory>
+      <Execution id="55612208-80a8-4574-bb27-cc53a50470cf" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.PriorityAndOwnerExecution.PriorityClassA" name="TM3" />
+    </UnitTest>
+    <UnitTest name="TM2" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="0" id="06f63c9c-0faa-a3fe-246f-cdd916dda8a1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="A" />
+        <TestCategoryItem TestCategory="Regression" />
+      </TestCategory>
+      <Execution id="8c3befc2-1339-4d40-9df1-569d017e5012" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.PriorityAndOwnerExecution.PriorityClassA" name="TM2" />
+    </UnitTest>
+    <UnitTest name="Test01" storage="c:\users\admin\source\myrepos\testingproject\testingproject\bin\debug\testingproject.dll" priority="1" id="dad6df1f-dfe8-35de-f0a2-0f4effbc0fed">
+      <Owners>
+        <Owner name="thejas" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="Priority classes" />
+      </TestCategory>
+      <Execution id="81d5bb1d-9757-4d70-a9f5-1e3d7bb565ff" />
+      <TestMethod codeBase="C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll" adapterTypeName="executor://mstestadapter/v2" className="TestingProject.PriorityExecution.PriorityClass03" name="Test01" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c01cbb09-c1cf-3afc-2bfe-132431acdeb7" executionId="55612208-80a8-4574-bb27-cc53a50470cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06f63c9c-0faa-a3fe-246f-cdd916dda8a1" executionId="8c3befc2-1339-4d40-9df1-569d017e5012" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01ba3369-9dd2-5b0e-c4c5-f1f07f134e03" executionId="f21e929b-4d6c-4c3c-97da-7ea96f6814c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dad6df1f-dfe8-35de-f0a2-0f4effbc0fed" executionId="81d5bb1d-9757-4d70-a9f5-1e3d7bb565ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-HRKOFKI" outcome="Warning" timestamp="2023-08-02T13:22:35.3690020+05:30">
+        <Text>[MSTest][Discovery][C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll] MSTestAdapter failed to discover tests in class 'TestingProject.UnitTest1' of assembly 'C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll' because Unable to get default constructor for class TestingProject.UnitTest1..</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HRKOFKI" outcome="Warning" timestamp="2023-08-02T13:22:35.3740003+05:30">
+        <Text>[MSTest][Discovery][C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll] UTA007: Method AssemblyIni defined in class TestingProject.GenericUtility.AssemblyAtribute does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, return-type as void  and should not take any parameter. Example: public void Test.Class1.Test(). Additionally, if you are using async-await in test method then return-type must be Task. Example: public async Task Test.Class1.Test2()</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HRKOFKI" outcome="Warning" timestamp="2023-08-02T13:22:35.3759999+05:30">
+        <Text>[MSTest][Discovery][C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll] UTA007: Method Assemblycleanup defined in class TestingProject.GenericUtility.AssemblyAtribute does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, return-type as void  and should not take any parameter. Example: public void Test.Class1.Test(). Additionally, if you are using async-await in test method then return-type must be Task. Example: public async Task Test.Class1.Test2()</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HRKOFKI" outcome="Warning" timestamp="2023-08-02T13:22:35.3769996+05:30">
+        <Text>[MSTest][Discovery][C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll] MSTestAdapter failed to discover tests in class 'TestingProject.TestScripts.ActiTimeHome' of assembly 'C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll' because Unable to get default constructor for class TestingProject.TestScripts.ActiTimeHome..</Text>
+      </RunInfo>
+      <RunInfo computerName="DESKTOP-HRKOFKI" outcome="Warning" timestamp="2023-08-02T13:22:35.3779997+05:30">
+        <Text>[MSTest][Discovery][C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll] MSTestAdapter failed to discover tests in class 'TestingProject.TestScripts.LoginToActiTimeUsingExcelData' of assembly 'C:\Users\Admin\source\MyRepos\TestingProject\TestingProject\bin\Debug\TestingProject.dll' because Sequence contains more than one element.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

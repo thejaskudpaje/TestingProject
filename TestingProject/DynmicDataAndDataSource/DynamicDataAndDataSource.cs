@@ -10,7 +10,7 @@ namespace TestingProject.TestScripts
 {
     [TestClass]
     [TestCategory("DynamicDataAndDataSource")]
-    public class ActiTimeLOginUsingDynamicDataAndDataSource
+    public class DynamicDataAndDataSource
     {
     
 
@@ -22,7 +22,7 @@ namespace TestingProject.TestScripts
         }
         public static IEnumerable<object[]> Names() 
         {
-            String path = "G:\\TYSS\\C#\\ActiTimeLogin.xlsx";
+            String path = "G:\\TYSS\\C#\\States_Capitals.xlsx";
             Spreadsheet spreadsheet = new Spreadsheet();
             spreadsheet.LoadFromFile(path);
             var sheet=spreadsheet.Workbook.Worksheets["Sheet1"];
@@ -30,9 +30,9 @@ namespace TestingProject.TestScripts
             int column=sheet.UsedRangeColumnMax;
 
             for(int i=1; i<=row; i++) {
-                string username=sheet.Cell(i, 0).ToString();
-               string password= sheet.Cell(i,1).ToString();
-                yield return new object[] { username, password };
+                string state=sheet.Cell(i, 0).ToString();
+               string capital= sheet.Cell(i,1).ToString();
+                yield return new object[] { state,capital };
             }
 
 

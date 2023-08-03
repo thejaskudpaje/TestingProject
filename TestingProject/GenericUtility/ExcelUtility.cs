@@ -11,6 +11,7 @@ namespace TestingProject.GenericUtility
 {
     [TestClass]
     [TestCategory("ExcelUtility")]
+    
     public class ExcelUtility : ActiTime
     {
         public String GetDataFromExcel(String sheet, int row, int col)
