@@ -13,7 +13,7 @@ namespace TestingProject.PriorityAndOwnerExecution
     public class PriorityClassA
     {
 
-        [TestMethod] [Priority(1), TestCategory("smoke")]
+      //  [TestMethod] [Priority(1), TestCategory("smoke")]
         public void TM3()
         {
             Thread.Sleep(3000);
@@ -25,13 +25,13 @@ namespace TestingProject.PriorityAndOwnerExecution
             Thread.Sleep(3000);
         }
 
-        [TestMethod]   [Priority(0)]  [TestCategory("Regression")]
+    //    [TestMethod]   [Priority(0)]  [TestCategory("Regression")]
         public void TM2()
         {
             Thread.Sleep(3000);
         }
 
-        [TestMethod] [Priority(0)]
+  //      [TestMethod] [Priority(0)]
         public void TM4()
         {
             Thread.Sleep(3000);

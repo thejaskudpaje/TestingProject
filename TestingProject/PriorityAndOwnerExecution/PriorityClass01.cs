@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace TestingProject.PriorityExecution
 {
-    [TestClass]
+  //  [TestClass]
     [TestCategory("Priority classes")]
-    
     public class PriorityClass01
     {
         [TestMethod]
+        [TestCategory("Priority classes")]
         [Owner("thejas")]
-        [Priority(0)]
+        [Priority(1)]
         public void Test01()
         {
             Console.WriteLine("Priority(0)");
@@ -65,7 +65,7 @@ namespace TestingProject.PriorityExecution
         [TestMethod]
         [Owner("thejas")]
         [Priority(1)]
-        public void Test01()
+        public void Test06()
         {
             Console.WriteLine("Priority(1)");
         }

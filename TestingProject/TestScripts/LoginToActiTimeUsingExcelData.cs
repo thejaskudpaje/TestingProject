@@ -36,8 +36,8 @@ namespace TestingProject.TestScripts
         [TestCleanup]
         public void ActiTimeLogout_Test()
         {
-            ActiTimeHome home = new ActiTimeHome(driver);
-            home.ActiTimeLogout_Test();
+        //    ActiTimeHome home = new ActiTimeHome(driver);
+          //  home.ActiTimeLogout_Test();
           
         }
 

@@ -39,6 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="Bytescout.Spreadsheet, Version=4.7.1.2054, Culture=neutral, PublicKeyToken=f7dd1bd9d40a50eb, processorArchitecture=MSIL">
       <HintPath>..\packages\Bytescout.Spreadsheet.4.7.1.2054\lib\net40\Bytescout.Spreadsheet.dll</HintPath>
@@ -448,9 +449,14 @@
     <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
     </Reference>
+    <Reference Include="WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL">
+      <HintPath>..\packages\InputSimulator.1.0.4.0\lib\net20\WindowsInput.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClass\LoginToActiTime.cs" />
+    <Compile Include="DataSource\DataSourceExtentReport02.cs" />
+    <Compile Include="DataSource\DataSurceTesting.cs" />
     <Compile Include="DynmicDataAndDataSource\DynamicDataAndDataSource.cs" />
     <Compile Include="GenericUtility\AssemblyInitialize.cs" />
     <Compile Include="GenericUtility\ExcelUtility.cs" />
@@ -470,20 +476,22 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>ITestSetting.runsettings</DependentUpon>
     </Compile>
+    <Compile Include="KeyBord Actions\keyboardClass.cs" />
     <Compile Include="ObjectRepos\ActiTimeHome.cs" />
     <Compile Include="ObjectRepos\ActiTimeLogin.cs" />
+    <Compile Include="ODBCPrograms\OBBCConnectionBasic.cs" />
     <Compile Include="Parallel exe.cs" />
+    <Compile Include="PracticeExtentReport\DataSourceExtentReport01.cs" />
     <Compile Include="PracticeExtentReport\ExtentReportBasicProg.cs" />
     <Compile Include="PracticeExtentReport\ExtentReportProg01.cs" />
     <Compile Include="PracticeExtentReport\ExtentReportScreenShot.cs" />
+    <Compile Include="PracticeExtentReport\PrintingDatabaseInfo.cs" />
     <Compile Include="PriorityAndOwnerExecution\PriorityClass01.cs" />
     <Compile Include="PriorityAndOwnerExecution\PriorityClassA.cs" />
     <Compile Include="TestData\DataRowClass.cs" />
-    <Compile Include="TestScripts\ActiTimeHome.cs" />
     <Compile Include="TestScripts\DynamicDataAndDataSource.cs" />
     <Compile Include="TestScripts\ExpectdExceptionAttribute.cs" />
     <Compile Include="TestScripts\LoginToActiTimeUsingExcelData.cs" />
-    <Compile Include="TestScripts\StaticTest.cs" />
     <Compile Include="TestScripts\Taking Screenshot\TakingScreenshotClass.cs" />
     <Compile Include="TestScripts\TakingScreenShot.cs" />
     <Compile Include="TestScripts\TimeOut.cs" />
@@ -491,6 +499,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DataSource\CSVData.csv" />
+    <None Include="DataSource\CSVDataInEXCEL.xlsx" />
     <None Include="ITesting.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>ITesting.Designer.cs</LastGenOutput>

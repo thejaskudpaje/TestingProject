@@ -38,7 +38,7 @@ namespace TestingProject.PracticeExtentReport
             extendTest2.Log(Status.Warning, "again warning");
             extendTest2.Pass("passing agin");
 
-           extReports.Flush();
+            extReports.Flush();
             htmlReport.Stop();
            // htmlReport.Flush();
 

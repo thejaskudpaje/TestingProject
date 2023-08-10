@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using TestingProject.GenericUtility;
 
 namespace TestingProject.PracticeExtentReport
 {
@@ -30,9 +31,11 @@ namespace TestingProject.PracticeExtentReport
         public static string screenshotPath;
 
 
-        [AssemblyInitialize]
-        public static void ExtReportInitialize(TestContext testContext)
+   /*    [AssemblyInitialize]
+        public static async Task ExtReportInitialize(TestContext testContext)
         {
+            WebActionUtility wa = new WebActionUtility();
+            wa.Implicit_Wait();
             TextContxt = testContext;
             extentReports = new ExtentReports();
             htmlExtent = new ExtentHtmlReporter(path);
@@ -44,9 +47,8 @@ namespace TestingProject.PracticeExtentReport
         [AssemblyCleanup]
         public static void clean()
         {
-            extentReports.Flush();
-            htmlExtent.Stop();
-        }
+      
+        }*/
         [TestInitialize]
         public void test_Initialize()
         {
@@ -57,8 +59,6 @@ namespace TestingProject.PracticeExtentReport
         {
             extest.AddScreenCaptureFromPath(screenshotPath);
             extentReports.Flush();
-
-
         }
 
         [TestMethod]
@@ -69,21 +69,16 @@ namespace TestingProject.PracticeExtentReport
 
         public void Exexute_Multiple_Browser_Test(string siteName, string url, bool status)
         {
-           // driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+           
             if (status==false)
             {
-                
                 extest = extentReports.CreateTest(siteName);
                 driver = new ChromeDriver();
-             
-
                 driver.Navigate().GoToUrl(url);
                 Screenshot_Test(siteName);
             }
         }
 
-
-    
         public static void Screenshot_Test(string siteName)
         {
             ITakesScreenshot takesScreenshot = (ITakesScreenshot)driver;
