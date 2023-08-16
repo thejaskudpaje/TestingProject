@@ -26,7 +26,7 @@ namespace TestingProject.ITestingPractice
 
         }
 
-    /*    [AssemblyInitialize]
+    /*   [AssemblyInitialize]
         public static void method(TestContext _testContext)
         {
             testContext = _testContext;

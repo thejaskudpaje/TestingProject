@@ -488,12 +488,12 @@
     <Compile Include="PracticeExtentReport\PrintingDatabaseInfo.cs" />
     <Compile Include="PriorityAndOwnerExecution\PriorityClass01.cs" />
     <Compile Include="PriorityAndOwnerExecution\PriorityClassA.cs" />
+    <Compile Include="ScreenShotDemo\ScreenshotUsingCurrentTestOutcome.cs" />
     <Compile Include="TestData\DataRowClass.cs" />
     <Compile Include="TestScripts\DynamicDataAndDataSource.cs" />
     <Compile Include="TestScripts\ExpectdExceptionAttribute.cs" />
     <Compile Include="TestScripts\LoginToActiTimeUsingExcelData.cs" />
     <Compile Include="TestScripts\Taking Screenshot\TakingScreenshotClass.cs" />
-    <Compile Include="TestScripts\TakingScreenShot.cs" />
     <Compile Include="TestScripts\TimeOut.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -518,6 +518,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PracticeExtentReport\ReportOfExtent\" />
+    <Folder Include="ScreenShotDemo\Screenshot\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
